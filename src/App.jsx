@@ -12,11 +12,11 @@ function App() {
     <GlobalProvider>
       <div className='bg-zinc-950 text-white h-screen flex justify-center items-center'>
         <div className='conatiner mx-auto w2/5 '>
-        <div className='text-4xl font-bold flex justify-center items-center p-5 text-[#FF5733]' >
-                App de Gastos por AMIRAPP
-        </div>
+          <div className='text-4xl font-bold flex justify-center items-center p-5 text-[#FF5733]' >
+            App de Gastos por AMIRAPP
+          </div>
           <div className=' bg-zinc-800 p-5 rounded-lg flex gap-x-5'>
-            <div>              
+            <div>
               <Balance />
               <IngresoEgreso />
               <TransaccionForm />
