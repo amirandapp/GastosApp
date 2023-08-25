@@ -13,7 +13,7 @@ function Balance() {
         <div className='flex justify-between'> 
             <h3> Tu balance es </h3>
 
-            <h1>${total}</h1>
+            <h1 className='font-bold'>${total.toLocaleString("en")}</h1>
             
 
 
