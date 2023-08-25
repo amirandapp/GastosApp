@@ -7,16 +7,14 @@ function Balance() {
 
     const amounts = transactions.map(transaction => transaction.amount);
 
-    const total = amounts.reduce((acc, item) => (acc +=item), 0)
+    const total = amounts.reduce((acc, item) => (acc += parseFloat(item) ), 0)
     return (
 
-        <div> 
+        <div className='flex justify-between'> 
             <h3> Tu balance es </h3>
 
-            <h1>${total}</h1>
-            <div>
-                {JSON.stringify(total, null,2)}
-            </div>
+            <h1 className='font-bold'>${total.toLocaleString("en")}</h1>
+            
 
 
         </div>
