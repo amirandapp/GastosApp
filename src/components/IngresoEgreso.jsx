@@ -21,8 +21,6 @@ function IngresoEgreso() {
 
             <h1>${egreso}</h1>
 
-
-
         </div>
 
         
